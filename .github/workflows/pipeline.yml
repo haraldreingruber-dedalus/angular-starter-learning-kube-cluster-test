@@ -72,5 +72,4 @@ jobs:
       - name: Deploy app
         run: |
           helm upgrade --install angular-starter-learning angular-starter-learning/
-
           
