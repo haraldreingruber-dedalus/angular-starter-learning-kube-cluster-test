@@ -71,5 +71,5 @@ jobs:
         id: install
       - name: Deploy app
         run: |
-          helm upgrade --install angular-starter-learning angular-starter-learning/
+          helm upgrade --install angular-starter-learning --namespace group01 --create-namespace angular-starter-learning/
           
